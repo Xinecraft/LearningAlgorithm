@@ -5,6 +5,8 @@
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DynamicConectivityProblem" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ThreeSumProblem" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DataStructure" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sorting" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
