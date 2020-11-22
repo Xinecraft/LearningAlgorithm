@@ -1,11 +1,11 @@
 def sortArray(array):
     length_range = range(len(array))
     for i in length_range:
-        min_index = i
-        for j in length_range[i + 1:]:
-            if array[j] < array[min_index]:
-                min_index = j
-        swap(array, i, min_index)
+        for j in range(i, 0, -1):
+            if array[j] < array[j-1]:
+                swap(array, j, j-1)
+            else:
+                break
 
 
 def swap(array, i, min_index):
